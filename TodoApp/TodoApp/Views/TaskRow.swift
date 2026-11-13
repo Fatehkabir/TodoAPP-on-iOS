@@ -1,7 +1,6 @@
 import SwiftUI
 
-/// One row in the task list. Takes a @Binding to its Task so toggling the
-/// checkbox updates the array back in TaskListView directly.
+
 struct TaskRow: View {
     @Binding var task: Task
     var onToggle: () -> Void

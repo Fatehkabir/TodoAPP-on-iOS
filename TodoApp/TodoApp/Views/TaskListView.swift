@@ -1,7 +1,6 @@
 import SwiftUI
 
-/// Main screen after login. Shows the signed-in user's tasks, lets them add,
-/// edit, complete, and delete — the four CRUD operations — all through Firestore.
+
 struct TaskListView: View {
     @Binding var isLoggedIn: Bool
 

@@ -1,7 +1,5 @@
 import SwiftUI
 
-/// One screen that handles both adding a new task and editing an existing one.
-/// If `existingTask` is nil, Save creates a task; otherwise it updates one.
 struct AddEditTaskView: View {
     let existingTask: Task?
     var onSave: () -> Void
